@@ -11,13 +11,18 @@ A principal diferença entre REST e RESTful reside na aderência aos princípios
 ## Verbos HTTP
 Os métodos HTTP (também conhecidos como verbos HTTP) são utilizados em uma API REST para indicar a ação a ser executada em um recurso. Alguns dos principais métodos incluem:
 
-GET: Recupera a representação de um recurso.
-POST: Submete dados a um recurso, causando uma mudança de estado ou efeitos colaterais no servidor.
-PUT: Substitui todas as representações atuais do recurso de destino pelos dados da requisição.
-DELETE: Remove um recurso específico.
-PATCH: Aplica modificações parciais em um recurso.
+*GET*: Recupera a representação de um recurso.
+
+*POST*: Submete dados a um recurso, causando uma mudança de estado ou efeitos colaterais no servidor.
+
+*PUT*: Substitui todas as representações atuais do recurso de destino pelos dados da requisição.
+
+*DELETE*: Remove um recurso específico.
+
+*PATCH*: Aplica modificações parciais em um recurso.
+
 E outros, como HEAD, OPTIONS, CONNECT e TRACE.
-Códigos de Status HTTP
+## Códigos de Status HTTP
 O Código de Status HTTP é uma parte essencial da comunicação entre cliente e servidor, indicando o resultado da tentativa de solicitação. Alguns códigos comuns incluem:
 
 2xx (Sucesso): Indica que a ação foi recebida, compreendida e aceita com sucesso.
